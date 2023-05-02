@@ -1,0 +1,53 @@
+.notificationReqContainerStyles {
+  width: 500px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 10px rgb(190, 186, 186);
+  border-radius: 6px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.ntfctnRightcontainerStyles {
+  display: flex;
+  gap: 12px;
+  padding: 0px 0px 0px 24px;
+}
+.ntfctnRightcontainerStyles button:first-child {
+  border: none;
+  /* width: 10px; */
+  border-radius: 8px;
+  background-color: rgb(108, 108, 178);
+  padding: 10px;
+  /* background-color: red; */
+}
+.ntfctnRightcontainerStyles button:last-child {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(42, 175, 64);
+  padding: 10px;
+}
+.ntfctnRightcontainerStyles button:first-child:hover {
+  background-color: rgb(153, 160, 169);
+}
+.ntfctnRightcontainerStyles button:last-child:hover {
+  background-color: rgb(19, 161, 23);
+}
+.notificationStyles {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 4px;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  padding: 12px 24px;
+}
+.notificationStyles p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+}

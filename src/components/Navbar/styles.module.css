@@ -1,0 +1,26 @@
+.navBarContainerStyles,
+.navBarRightStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navBarRightStyles {
+  gap: 24px;
+}
+.navBarContainerStyles {
+  background-color: #b5b5b5;
+  color: #131313;
+}
+.navBarItemsStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.logoContainer,
+.navBarItemsStyles p {
+  cursor: pointer;
+}
+.userIconStyles {
+  font-size: 42px;
+}

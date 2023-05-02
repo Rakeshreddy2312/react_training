@@ -1,12 +1,22 @@
+import { StringsProvider } from 'providers/stringsProviderContext';
+import { UserProvider } from 'providers/userProviderContext';
 import './App.css';
-import React from 'react';
-import Button from './components/Button/btn/Button';
+import React, { createRef } from 'react';
+
+import AppRoutes from 'routes/AppRoutes';
+import { NotificationProvider } from 'providers/notifyContextProvider';
+export const ref = createRef();
 function App() {
   return (
-    <div className="App">
-      <Button />
-      welcome to reactjs
-    </div>
+    <NotificationProvider>
+      <StringsProvider>
+        <UserProvider>
+          <div ref={ref}>
+            <AppRoutes />
+          </div>
+        </UserProvider>
+      </StringsProvider>
+    </NotificationProvider>
   );
 }
 
