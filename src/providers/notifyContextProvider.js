@@ -22,7 +22,7 @@ const NotificationProvider = ({ children }) => {
     a.download = createFileName(extension, name);
     a.click();
   };
-  let a = new Audio(
+  let audio = new Audio(
     'http://commondatastorage.googleapis.com/codeskulptor-assets/week7-brrring.m4a'
   );
   //get notification permission and token
